@@ -2,7 +2,15 @@ import React from "react";
 import "./Button.scss";
 
 const Button = (props) => {
-  return <button>{props.chidlren}</button>;
+  return (
+    <button
+      className="btn"
+      type={props.type || "buttton"}
+      onClick={props.onClick}
+    >
+      {props.children}
+    </button>
+  );
 };
 
 export default Button;

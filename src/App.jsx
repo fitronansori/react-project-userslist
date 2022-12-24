@@ -1,9 +1,12 @@
 import React from "react";
+import AddUsers from "./features/users/AddUsers";
+import UsersList from "./features/users/UsersList";
 
 const App = () => {
   return (
     <main>
-      <h1>Haloo</h1>
+      <AddUsers />
+      <UsersList />
     </main>
   );
 };
