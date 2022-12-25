@@ -26,7 +26,6 @@ export const deleteUsers = createAsyncThunk("posts/deleteUsers", async (id) => {
   await axios.delete(`${USERS_API}/${id}`);
   return id;
 });
-
 const usersSlice = createSlice({
   name: "users",
   initialState,

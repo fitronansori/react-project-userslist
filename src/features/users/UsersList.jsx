@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./UsersList.scss";
 import Card from "../../components/UI/Card";
 import { FaEdit } from "react-icons/fa";
